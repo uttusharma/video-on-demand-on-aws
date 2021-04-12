@@ -113,7 +113,7 @@ Mappings:
       KeyPrefix: "%%SOLUTION_NAME%%/%%VERSION%%"
   AnonymousData:
     SendAnonymousData:
-      Data: Yes
+      Data: No
 
 Conditions:
   Metrics: !Equals [!FindInMap [AnonymousData, SendAnonymousData, Data], Yes]
